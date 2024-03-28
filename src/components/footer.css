@@ -1,0 +1,52 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #282b2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  
+  .contactInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contactItem {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .contactItem svg {
+    margin-right: 10px;
+  }
+  
+  .socialMedia a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  .socialMedia svg {
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+    
+  }
+  
+  .footer p {
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    box-sizing: border-box;
+    padding: 100px;
+    font-size: 12px;
+  }
