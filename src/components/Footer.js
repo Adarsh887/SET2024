@@ -26,10 +26,11 @@ function Footer() {
       <a href="https://twitter.com/ChennaiVit" target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" className="p-2"/></a>
 
       </div>
-      <p>All rights reserved by &copy; {new Date().getFullYear()}</p>
+      <p>Designed by, ADARSH S</p>
     </div>
   );
 }
 
 export default Footer;
 
+/*<p>All rights reserved by &copy; {new Date().getFullYear()}</p>*/ 

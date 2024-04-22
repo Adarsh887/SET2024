@@ -10,8 +10,8 @@ function Org(){
                 <h1 className="container justify-content-center">Organizing Committee</h1>
             </div>
             <br/>
-            <div className="container d-flex flex-wrap justify-content-center">
-                <div className="container w-50">
+            <div className="container d-flex flex-wrap justify-content-center text-justify">
+                <div className="container w-50 text-align-class">
                     <h4>Chief Patron</h4>
                     <p>Dr. G. Viswanathan, Chancellor</p>
 
@@ -19,33 +19,37 @@ function Org(){
                     <p>
                     Mr. Sankar Viswanathan, Vice President,<br/>
                     Dr. Sekar Viswanathan, VicePresident,<br/>
-                    Dr. G.V. Selvam, Vice President
+                    Dr. G.V. Selvam, Vice President<br/>
+                    Dr. Sandhya Pentareddy, Executive Director<br/>
+                    Ms. Kadhambari S. Viswanathan, Assistant Vice - President
                     </p>
 
-                    <h4>Co Patrons</h4>
+                    <h4>Co-Patrons</h4>
                     <p>
-                    Dr. Kanchana bhaaskaran, Vice Chancellor
+                    Dr. V S Kanchana Bhaaskaran, Vice Chancellor<br/>
+                    Dr. T. Tyagarajan, Pro- Vice Chancellor
+
                     </p>
 
-                    <h4>Convenors</h4>
+                    <h4>Conveners</h4>
                     <p>
                     Dr. Susan Elias, Dean SENSE<br/>
-                    Dr. John Sahaya Rani Alex, Associate Dean<br/>
-                    Dr. Reena Monica, Associate Dean
+                    Dr. John Sahaya Rani Alex, Associate Dean (Research), SENSE<br/>
+                    Dr. Reena Monica, Associate Dean (Academics), SENSE
                     </p>
 
                     <h4>Program Chair</h4>
                     <p>
                     Dr. Mohanaprasad K, HoD ECE<br/>
                     Dr. Annis Fathima A, HoD ECM<br/>
-                    Dr. Anita Angeline A, HoD VLS
+                    Dr. Anita Angeline A, HoD VLSI and ES
                     </p>
 
                     <h4>Organizers</h4>
                     <p>  
                     Dr. Nagajayanthi, SENSE<br/>
-                    Dr. Usharani, SENSE<br/>
-                    Dr. Jean jenifer, SENSE
+                    Dr. Usha Rani S, SENSE<br/>
+                    Dr. Jean jenifer Nesam J, SENSE
                     </p>
                 </div>
                 <div className="container w-50">
@@ -73,7 +77,7 @@ function Org(){
                     <h4>Website Comittee</h4>
                     <p>
                     Dr.Kalaivanan K, SENSE<br/>
-                    Adarsh S
+                    
                     </p>
 
                     <h4>Publication Comittee</h4>

@@ -52,7 +52,7 @@ function Home() {
       <div className='content bg-light text-dark'>
         <div className="w-100 p-5 ">
           <div className="text-center">
-            <h1 className="display-1">Welcome to SET 2024</h1>
+            <h1 className="display-2">International Conference on Science Engineering & Technology (SET)</h1>
             <p className="lead">Innovate for Progress, Build for Tomorrow!</p>
           </div>
 

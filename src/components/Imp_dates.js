@@ -4,7 +4,7 @@ import Header from "./Header";
 function Imp_dates(){
 
     return(
-        <div>
+        <div className="bg-light text-dark">
             <Header/>
             <br/>
             <div className="container justify-content-center">

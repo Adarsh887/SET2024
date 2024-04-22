@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Events from './components/Events';
 import Imp_dates from './components/Imp_dates';
 import Org from './components/Organization';
-
+import Track from './components/track';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path="/important_dates" element={<Imp_dates/>} />
         <Route path="/events" element={<Events/>}/>
         <Route path="/organization_committee" element={<Org/>}/>
+        <Route path="/paper_track" element={<Track/>}/>
       </Routes>
     </Router>
   );

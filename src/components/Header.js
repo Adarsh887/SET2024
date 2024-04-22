@@ -25,7 +25,10 @@ function Header() {
               <Link to="/important_dates" className="nav-link">Important Dates</Link>
             </li>
             <li className="nav-item">
-              <Link to="/organization_committee" className="nav-link">Organization Committee</Link>
+              <Link to="/organization_committee" className="nav-link">Organizing Committee</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/paper_track" className="nav-link">Paper Track</Link>
             </li>
             <li className="nav-item">
               <Link to="/contact" className="nav-link">Contact Us</Link>
