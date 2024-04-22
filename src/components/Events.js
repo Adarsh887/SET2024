@@ -1,9 +1,8 @@
 import Footer from "./Footer";
 import Header from "./Header";
-//import '@syncfusion/ej2-layouts/styles/material.css';
-import { CCard,CCardImage,CCardBody,CCardTitle,CCardText,CButton } from '@coreui/react';
 import '@coreui/coreui/dist/css/coreui.min.css';
-import BannerImage from "../assets/VIT.jpg";
+import './styles.css';
+
 
 function Events(){
     return(
@@ -17,7 +16,7 @@ function Events(){
             <div className="container d-flex flex-wrap justify-content-center">
                 <div className="container w-50">
                     <h2>About SENSE</h2>
-                    <p>The School of Electronics Engineering (SENSE) at VIT
+                    <p className="abc">The School of Electronics Engineering (SENSE) at VIT
                         Chennai was established for imparting state-of-the-art
                         education, training and research in the field of Electronics &
                         Communication Engineering and allied areas. The school
@@ -40,7 +39,7 @@ function Events(){
                 </div>
                 <div className="container w-50">
                     <h2>Objective</h2>
-                    <p>The SET 2024 conference will deliver the
+                    <p className="abc">The SET 2024 conference will deliver the
                         recent developments on research across
                         various discipline of engineering and
                         technology. It provide the platform for the
@@ -62,28 +61,3 @@ function Events(){
 }
 
 export default Events;
-
-/*
-
-d-flex flex-wrap justify-content-center
-<CCard style={{ width: '18rem' }} className="m-5 b-3 p-2">
-                    <CCardImage orientation="top" src={BannerImage} />
-                    <CCardBody>
-                    <CCardTitle>Card title</CCardTitle>
-                    <CCardText>
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </CCardText>
-                    <CButton color="primary" href="#">Go somewhere</CButton>
-                    </CCardBody>
-                </CCard>
-                <CCard style={{ width: '18rem' }} className="m-5 b-3 p-2">
-                    <CCardImage orientation="top" src={BannerImage} />
-                    <CCardBody>
-                    <CCardTitle>Card title</CCardTitle>
-                    <CCardText>
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </CCardText>
-                    <CButton color="primary" href="#">Go somewhere</CButton>
-                    </CCardBody>
-                </CCard>
-*/
