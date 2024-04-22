@@ -22,7 +22,7 @@ function Home() {
   const images = [
     {
       id: 1,
-      url: Image0
+      url: Image3
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ function Home() {
     },
     {
       id: 3,
-      url: Image3
+      url: Image5
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ function Home() {
     },
     {
       id: 5,
-      url: Image5
+      url: Image0
     },
     {
       id: 6,
